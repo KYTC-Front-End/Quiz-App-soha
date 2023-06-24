@@ -10,10 +10,13 @@
         <h1>Welcome to the Online Quiz!</h1>
         <p>This game will test your knowledge with 10 multiple-choice questions.</p>
         <p>Click the "Start Game" button to begin.</p>
+       <div class="btndiv">
+        <input type="text" class="name" id="fname" placeholder="Your name..">
+        <button id="start-button">Start Game</button>
+        <button id="leaderboard">leader Board</button>
+       </div>
      </div>
-     <input type="text" class="name" id="fname" placeholder="Your name..">
-      <button id="start-button">Start Game</button>
-      <button id="leaderboard">leader Board</button>
+   
       
       <div id="question-container" style="display: none;">
         <h2>Question <span id="question-number"></span></h2>
@@ -25,6 +28,11 @@
       <div id="score-container" style="display: none;">
         <h2>Game Over!</h2>
         <p>Your final score: <span id="score"></span></p>
+        <button onclick="location.reload()">Reload</button>
+      </div>
+      <div id="divleaderboard" style="display: none;">
+        <h1>Leaderboard</h1>
+        <ul id="leaderboard-list"></ul>
       </div>
 </div>
 <script src="main.js"></script>

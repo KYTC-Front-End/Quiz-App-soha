@@ -1,142 +1,146 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url(quez.jpg);
   
-  body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-image: url(quez.jpg);
-    
-  }
-  
- 
-  #main{
-   margin-top: 200px;
-  }
-  h1 {
-  
-    font-size: 60px;
-    color: white;
-    
-  }
-  
-  p {
-    margin-top: 20px;
-    font-size: 30px;
-    color: white;
-  }
-  
-  .name {
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 24px;
-    width: 510px;
 }
 
 
-  #start-button {
-    width: 300px;
-    height: 60px;
-    margin-top: 30px;
-    padding: 10px 20px;
-    font-size: 30px;
-    background-color: #006557;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+#main{
+ margin-top: 200px;
+}
+h1 {
 
-  #leaderboard{
-    width: 300px;
-    height: 60px;
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 30px;
-    background-color: #006557;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  .container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #question-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    border-radius: 20px;
-    height: 320px;
-    width: 700px;
-    margin-top: 150px;
-    padding-top : 45px;
-   
-  }
+  font-size: 60px;
+  color: white;
   
+}
 
-  #question-number {
-  color: #006557;
-  }
-  
+p {
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.name {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 24px;
+  width: 510px;
+}
+.btndiv {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#start-button , button {
+  width: 300px;
+  height: 60px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 30px;
+  background-color: #006557;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#leaderboard{
+  width: 300px;
+  height: 60px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 30px;
+  background-color: #006557;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 320px;
+  width: 700px;
+  margin-top: 150px;
+  padding-top : 45px;
  
-  #question {
-    margin-top: 10px;
-    font-size: 25px;
-    font-weight: bold;
-    color: black;
-
-  }
-  
- 
-  #options {
-    margin-top: 20px;
-    list-style-type: none;
-    font-size: 25px;
-    
-  }
-  
- 
-  #options li {
-    margin-bottom: 10px;
-  }
-  
-  #next-button {
-    margin-top: 30px;
-    padding: 10px 20px;
-    font-size: 30px;
-    background-color: #006557;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  
-  #score-container {
-    margin-top: 200px;
-    color: #ffffff;
-    font-size: 70px;
-    text-shadow: 0px 0px 10px white;
-
-  }
-  
-  #score {
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-  }
-  
+}
 
 
- 
+#question-number {
+color: #006557;
+}
+
+
+#question {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+
+}
+
+
+#options {
+  margin-top: 20px;
+  list-style-type: none;
+  font-size: 25px;
+  
+}
+
+
+#options li {
+  margin-bottom: 10px;
+}
+
+#next-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 30px;
+  background-color: #006557;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+#score-container {
+  margin-top: 200px;
+  color: #ffffff;
+  font-size: 70px;
+  text-shadow: 0px 0px 10px white;
+
+}
+
+#score {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+ul {
+list-style: none;
+}
